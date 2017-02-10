@@ -1,0 +1,4 @@
+snapcart_api_homepage:
+    resource: "@SnapcartAPIBundle/Controller/"
+    prefix: /
+    type: annotation

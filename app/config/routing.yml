@@ -1,0 +1,10 @@
+snapcart_api:
+    resource: "@SnapcartAPIBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+api_login_check:
+    path: /login_check
